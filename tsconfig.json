@@ -4,9 +4,14 @@
     "moduleResolution": "node",
     "baseUrl": "src",
     "outDir": "dist",
-    "sourceMap": true,
+    "sourceMap": false,
     "noImplicitAny": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ]
   },
   "include": ["src/**/*"],
 }

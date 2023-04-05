@@ -1,5 +1,5 @@
 import { Router } from "express";
-import UserController from "../../Controllers/UserController";
+import UserController from "../../controllers/UserController";
 export default (routes: Router) => {
     routes.get("/user", UserController.getUsers);
 };

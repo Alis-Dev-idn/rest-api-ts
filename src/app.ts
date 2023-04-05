@@ -20,7 +20,6 @@ app.use(bodyParser.json({limit: "5MB"}));
 app.use("/", Routes());
 
 const server = http.createServer(app);
-
 server.listen(1181, () => {
    console.log("server is running in http://localhost:1181");
 });
