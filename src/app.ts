@@ -5,7 +5,7 @@ import cookiesParser from "cookie-parser";
 import cors from "cors";
 import compression from "compression";
 import morgan from "morgan";
-import Routes from "./Routes/Routes";
+import Routes from "./routes/Routes";
 
 const app = express();
 
