@@ -1,5 +1,6 @@
 .idea
 dist
+buildApp
 node_modules
 
 .env
